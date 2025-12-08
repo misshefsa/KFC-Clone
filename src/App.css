@@ -5,5 +5,147 @@
 }
 body{
     background-color: black;
+     font-family: "Roboto", sans-serif;
 }
+.navbar{
+    padding: 2rem ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: sticky;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+.nav-but{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 2rem;
+    background-color: rgba(28, 24, 22, 1);
+    border-radius: 0.4rem;
+    color: white;
+    gap: 0.4rem;   
+}
+.nav-but1{
+  border: 2px solid red;
+   
+}
+@media screen  and (max-width:774px){
+    .nav-but{
+        display: none
+    }
+    
+}
+.nav-but h3{
+    margin: 0%;
+    font-size: 1rem;
+}
+.login{
+    display: flex;
+    gap: 1rem;
 
+}
+.navmediabar{
+   padding: 2rem ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+gap: 0.5rem;
+margin-top: -4rem;
+margin-left: 2rem;
+}
+.nav-media1 {
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.3rem 1rem;
+    background-color: rgba(28, 24, 22, 1);
+    border-radius: 0.4rem;
+    color: white;
+    gap: 0.4rem;
+
+    
+}
+.nav-media2 {
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.3rem 1rem;
+    background-color: rgba(28, 24, 22, 1);
+    border-radius: 0.4rem;
+    color: white;
+    gap: 0.4rem;
+    
+}
+.nav-media1 h3{
+    margin: 0%;
+    font-size: 1rem;
+}
+.nav-media2 h3{
+    margin: 0%;
+    font-size: 1rem;
+}
+.nav-media1{
+    border: 2px solid red;
+}
+@media screen  and (min-width:774px){
+    .navmediabar{
+        display: none
+    }
+    
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+flex-direction: row;
+gap: 1rem;
+
+}
+.container-fluid{
+    height: 70vh;
+    margin-top: 1rem;
+}
+.container{
+    height: 60vh;
+}
+.heading{
+    color: white;
+font-size: 1.4rem;
+}
+.heading .line{
+    width: 6rem;
+    height: 0.3rem;
+    background-color: red;
+    border-radius: 2rem;
+margin-bottom: 2rem;
+}
+.deals{
+    gap: 1rem;
+background-color: rgba(28, 24, 22, 1);
+height: 60vh;
+border-radius: 1rem;
+padding: 1rem;
+align-items: center;
+display: flex;
+justify-content: center;
+flex-direction: column;
+color: white;
+}
+.deals p{
+    font-weight: 100;
+}
+.deals span{
+    font-weight: 700;
+}
+.deal3{
+    gap: 0.5rem;
+}
