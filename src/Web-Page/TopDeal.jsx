@@ -16,37 +16,39 @@ export default function TopDeal() {
                         <div className='line'></div>
                     </div>
                     <div className="row box">
-                        <div className="col-xl-3 col-md-6 col-sm-12 deals">
+                        <div className="col-xl-3 col-md-6 deals">
                             <img src={dealpart} className="img" alt="" />
                             <img src={burger} alt="" />
                             <div>
                                 <span>Zinger Stacker Combo</span>
-                                <p>1 Zinger Stacker + 1 Regular fries + 1 Regular drink</p>
+                                <p id='p-dis'>1 Zinger Stacker + 1 Regular fries + 1 Regular drink</p>
                                 <p>RS 950</p>
                             </div>
                             <button className='btn btn-danger'>+ ADD TO BUCKET</button>
                         </div>
             
-                        <div className="col-xl-3 col-md-6 col-sm-12 deals">
+                        <div className="col-xl-3  col-md-6 deals">
                             <img src={dealpart} alt="" />
                             <img src={topdeal3} alt="" />
                             <div>
                                 <span>Zinger Stacker Combo</span>
-                                <p>1 Zinger Stacker + 1 Regular fries + 1 Regular drink</p>
+                                <p id='p-dis'>1 Zinger Stacker + 1 Regular fries + 1 Regular drink</p>
                                 <p>RS 950</p>
                             </div>
                             <button className='btn btn-danger'>+ ADD TO BUCKET</button>
                         </div>
-                        <div className="col-xl-3 deal3 col-md-6 col-sm-12 deals">
+                        <div className="col-xl-3 deal3 col-md-6 deals">
                             <img src={dealpart} alt="" />
                             <img src={topdeal4} alt="" />
                             <div>
                                 <span>Zinger Stacker Combo</span>
-                                <p>1 Zinger Stacker + 1 Regular fries + 1 Regular drink</p>
+                                <p id='p-dis'>1 Zinger Stacker + 1 Regular fries + 1 Regular drink</p>
                                 <p>RS 950</p>
                             </div>
                             <button className='btn btn-danger'>+ ADD TO BUCKET</button>
+                            
                         </div>
+                          
                   </div>
                 </div>
             </div>

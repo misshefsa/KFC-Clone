@@ -6,6 +6,7 @@
 body{
     background-color: black;
      font-family: "Roboto", sans-serif;
+     height: 100vh;
 }
 .navbar{
     padding: 2rem ;
@@ -105,18 +106,16 @@ margin-left: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%;
+
 flex-direction: row;
 gap: 1rem;
 
 }
 .container-fluid{
-    height: 70vh;
+    
     margin-top: 1rem;
 }
-.container{
-    height: 60vh;
-}
+
 .heading{
     color: white;
 font-size: 1.4rem;
@@ -139,6 +138,7 @@ display: flex;
 justify-content: center;
 flex-direction: column;
 color: white;
+height: fit-content;
 }
 .deals p{
     font-weight: 100;
@@ -148,4 +148,11 @@ color: white;
 }
 .deal3{
     gap: 0.5rem;
+}
+.footer{
+    background-color: gray;
+    
+}
+#p-dis{
+    font-size: 0.8rem;
 }
