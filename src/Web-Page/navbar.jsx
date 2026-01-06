@@ -4,7 +4,7 @@ import logo from './Img/logo.png'
 import pickup from './Img/pickup.png'
 import Deliver from './Img/Deliver.png'
 import card from './Img/card.png'
-
+import '../App.css'
 export default function navbar() {
     return (
         <>
