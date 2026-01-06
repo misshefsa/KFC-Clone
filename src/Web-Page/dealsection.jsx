@@ -8,7 +8,12 @@ export default function Dealsection() {
   return (
     <>
     <div className="container deal-section">
-      <div className="row explore-section"><div className="col-6  explore"><img src={Deal3} alt="" /></div>
+        <div className="heading">
+                        <div>More Deals</div>
+                        <div className='line' style={{marginBottom:"2rem"}}></div>
+                    </div>
+      <div className="row explore-section">
+        <div className="col-6  explore"><img src={Deal3} alt="" /></div>
       <div className="col-6 explore"><img src={Deal1} alt="" /></div>
       <div className="col-6 explore"><img src={Deal2} alt="" /></div>
       
