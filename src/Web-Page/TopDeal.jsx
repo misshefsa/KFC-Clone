@@ -45,7 +45,7 @@ export default function TopDeal() {
                                 <p id='p-dis'>1 Zinger Stacker + 1 Regular fries + 1 Regular drink</p>
                                 <p>RS 950</p>
                             </div>
-                            <button className='btn btn-danger'>+ ADD TO BUCKET</button>
+                            <button className='btn btn-danger' style={{marginTop:"-2rem"}}>+ ADD TO BUCKET</button>
                             
                         </div>
                           

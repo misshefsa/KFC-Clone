@@ -48,9 +48,11 @@ export default function Footer() {
 
           <div className="col-md-3 col-sm-6 mb-4">
             <h6>Get the App</h6>
-            <img src={playstore} alt="" height={40} className="mb-2" />
+            <a href="https://play.google.com/store/apps/details?id=io.bramerz.kfc&hl=en&gl=US">  <img src={playstore} alt=""  height={40} className="mb-2" /></a>
+          
             <br />
-            <img src={appstore} alt="" height={40} />
+            <a href="https://apps.apple.com/us/app/kfc-pakistan/id1480491422" style={{marginTop:"-2rem"}}> <img src={appstore} alt="" height={40} /></a>
+           
           </div>
 
         </div>
