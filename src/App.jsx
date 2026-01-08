@@ -1,18 +1,21 @@
-import React from 'react'
-import Navbar from './Web-Page/navbar.jsx'
-import './navbar.module.css'
-import Header from './Web-Page/header.jsx'
-import TopDeal from './Web-Page/TopDeal.jsx'
-import Dealsection from './Web-Page/dealsection.jsx'
-import Footer from './Web-Page/footer.jsx'
+import React, { useState } from "react";
+import Sidebar from "./Web-Page/Sidebar";
+import Navbar from "./Web-Page/navbar";
+import TopDeal from "./Web-Page/TopDeal";
+import Dealsection from "./Web-Page/dealsection";
+import Header from "./Web-Page/header";
+import Footer from "./Web-Page/footer";
 export default function App() {
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+
   return (
-   <>
-<Navbar/>
-<Header/>
-<TopDeal/>
-<Dealsection/>
-<Footer/>
-   </>
-  )
+    <>
+      <Navbar openSidebar={() => setSidebarOpen(true)} />
+      <Sidebar open={sidebarOpen} closeSidebar={() => setSidebarOpen(false)} />
+        <Header />
+        <TopDeal />
+        <Dealsection />
+        <Footer />
+    </>
+  );
 }

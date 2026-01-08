@@ -3,3 +3,82 @@
     margin: 0%;
     box-sizing: border-box;
 }
+.hr{
+    border: none;
+    height: 1px;
+    background-color: gray;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.sidebar {
+    height: 100vh;
+    width: 15rem;
+    background-color: rgba(28, 24, 22, 1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    gap: 1.5rem;
+    
+}
+.sidebar-items{
+    color: white;
+    font-weight: 300;
+    font-size: 1.2rem;
+    cursor: pointer;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.sidebar-items .col {
+margin-top: 1rem;
+}
+.sidebar-items .mode{
+    margin-top: 1rem;
+    font-size: 1rem;
+    margin-left: 3rem;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 3rem;
+    width: 8rem;
+    display: flex;
+    
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 2.5rem;
+    background-color: black
+}
+.sidebar-items .mode .dark-mode{
+   background-color: red;
+    width: 4rem;
+       height: 2.5rem;
+
+    padding: 1rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.sidebar-items .mode .light-mode{
+   
+    width: 4rem;
+       height: 2.5rem;
+
+    padding: 1rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.login-btn{
+
+    background-color: red;
+    
+  } 

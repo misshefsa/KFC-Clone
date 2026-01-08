@@ -5,12 +5,21 @@ import pickup from './Img/pickup.png'
 import Deliver from './Img/Deliver.png'
 import card from './Img/card.png'
 import '../App.css'
-export default function navbar() {
+export default function navbar({ openSidebar }) {
     return (
         <>
+        
         <nav className='navbar'>
             <div className='nav'>
-                <img src={icon} alt="" />
+                <img
+  src={icon}
+  alt="menu"
+  style={{ cursor: "pointer" }}
+  onClick={(e) => {
+    e.stopPropagation(); // Prevents the document listener from firing immediately
+    openSidebar();
+  }} 
+/>
                 <img src={logo} alt="" />
                 <div className='nav-but1 nav-but'>
                     <img src={Deliver} alt="" />

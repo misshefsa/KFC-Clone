@@ -70,6 +70,7 @@ body {
     margin-top: -3rem;
     font-size: 0.5rem;
     margin-left: 2rem;
+    margin-bottom: 1rem;
 }
 
 .nav-media1 {
@@ -307,4 +308,22 @@ padding: 0%;
 
 .onepersondeal {
     margin-top: -4rem;
+}.sidebar {
+  position: fixed;
+  left: -300px; /* Adjust based on width */
+  width: 300px;
+  height: 100%;
+  transition: 0.3s ease;
+  z-index: 1000;
+}
+
+.sidebar.active {
+  left: 0;
+}
+
+/* optional for smooth mobile */
+@media screen and (max-width: 774px) {
+  .sidebar {
+    width: 80%;
+  }
 }
