@@ -30,7 +30,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 1rem 2rem;
+    padding: 0.5rem 1.5rem;
     background-color: rgba(28, 24, 22, 1);
     border-radius: 0.4rem;
     color: white;
@@ -51,7 +51,8 @@ body {
 
 .nav-but h3 {
     margin: 0%;
-    font-size: 1rem;
+    font-size: 0.8rem;
+    font-weight: 700;
 }
 
 .login {

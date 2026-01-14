@@ -3,47 +3,54 @@ import icon from './Img/icon.png'
 import logo from './Img/logo.png'
 import pickup from './Img/pickup.png'
 import Deliver from './Img/Deliver.png'
+import merch from './Img/merch.png'
 import card from './Img/card.png'
 import '../App.css'
 export default function navbar({ openSidebar }) {
     return (
         <>
-        
-        <nav className='navbar'>
-            <div className='nav'>
-                <img
-  src={icon}
-  alt="menu"
-  style={{ cursor: "pointer" }}
-  onClick={(e) => {
-    e.stopPropagation(); // Prevents the document listener from firing immediately
-    openSidebar();
-  }} 
-/>
-                <img src={logo} alt="" />
-                <div className='nav-but1 nav-but'>
+
+            <nav className='navbar'>
+                <div className='nav'>
+                    <img
+                        src={icon}
+                        alt="menu"
+                        style={{ cursor: "pointer" }}
+                        onClick={(e) => {
+                            e.stopPropagation(); // Prevents the document listener from firing immediately
+                            openSidebar();
+                        }}
+                    />
+                    <img src={logo} alt="" />
+                    <div className='nav-but1 nav-but'>
+                        <img src={Deliver} alt="" />
+                        <h3>DELIVERY</h3>
+                    </div>
+                    <div className='nav-but'>
+                        <img src={pickup} alt="" />
+                        <h3>PICKUP</h3>
+                    </div>
+                     <div className='nav-but'>
+                        <img src={merch} alt="" height={30}/>
+                        <h3>Merch</h3>
+                    </div>
+                </div>
+                <div className='login'>
+                    <img src={card} alt="" />
+                    <button type="button" className="btn btn-danger">LOGIN</button>
+                </div>
+            </nav>
+            <div className='navmediabar'>
+                <div className='nav-media1'>
                     <img src={Deliver} alt="" />
                     <h3>DELIVERY</h3>
                 </div>
-                <div className='nav-but'>
-                    <img src={pickup} alt="" />
-                    <h3>PICKUP</h3>
-                </div>
-            </div>
-            <div className='login'>
-                <img src={card} alt="" />
-                <button type="button" className="btn btn-danger">LOGIN</button>
-            </div>
-        </nav>
-        <div className='navmediabar'>
-            <div className='nav-media1'>
-                    <img src={Deliver} alt="" />
-                    <h3>DELIVERY</h3>
-                </div>
+
                 <div className='nav-media2'>
                     <img src={pickup} alt="" />
                     <h3>PICKUP</h3>
-                </div></div>
-                </>
+                </div>
+                </div>
+        </>
     )
 }
