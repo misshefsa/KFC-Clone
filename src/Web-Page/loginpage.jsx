@@ -2,6 +2,7 @@ import React from 'react'
 import styles from '././loginpage.module.css'
 import login from '././Img/loginimg.gif'
 export default function loginpage() {
+  
   return (
     <div className={`${styles.loginpage} container`}>
      <div  className={` ${styles.loginrow} `}>

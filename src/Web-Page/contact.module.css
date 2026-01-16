@@ -1,0 +1,47 @@
+.contactrow {
+  align-items: stretch;
+}
+
+/* Main cards */
+.card {
+  background: #1c1816;
+  padding: 22px;
+  border-radius: 6px;
+  height: 100%;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* Headings */
+.heading,
+.subHeading {
+  display: flex;
+
+  gap: 8px;
+  font-weight: 700;
+}
+
+.subHeading {
+  margin-top: 14px;
+  font-size: 15px;
+}
+
+/* Icons */
+.icon {
+  font-size: 20px;
+  color: #e4002b; /* KFC red */
+}
+
+/* Helpline & Email */
+.highlight {
+  background: #1c1816;
+  padding: 22px;
+  border-radius: 14px;
+  
+}
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  color: #e4002b; /* KFC red */
+  margin-bottom: 20px;
+}
